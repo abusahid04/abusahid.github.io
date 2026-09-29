@@ -1,3 +1,6 @@
+import trendCutsImg from "@/assets/Sahid Mama Logo.png";
+import bornToShineImg from "@/assets/image.png";
+
 export const config = {
   name: "Abu Sahid",
   role: "Vibe Coder & Developer",
@@ -18,17 +21,6 @@ export const stats = {
 
 export const projects = [
   {
-    id: "borntoshine",
-    name: "BornToShine",
-    category: "Web",
-    description: "BornToShine is a modern music production and publishing website created to showcase music, artists, releases, and creative work through a professional digital presence.",
-    status: "Live",
-    url: "https://www.borntoshine.online",
-    technologies: ["Next.js", "React", "CSS", "Web Design"],
-    image: "https://images.unsplash.com/photo-1511379938547-c1f69419868d?q=80&w=2070&auto=format&fit=crop",
-    tags: ["Music Production", "Web Design", "Creative Platform"]
-  },
-  {
     id: "trendcuts",
     name: "TrendCuts",
     category: "Android",
@@ -36,8 +28,19 @@ export const projects = [
     status: "Published",
     url: "https://play.google.com/store/apps/details?id=com.devsahid.capcuttemplates",
     technologies: ["Java", "XML", "Android Studio"],
-    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=1974&auto=format&fit=crop",
+    image: trendCutsImg.src,
     tags: ["Android", "Java", "XML", "CapCut Templates", "Content Creation"]
+  },
+  {
+    id: "borntoshine",
+    name: "BornToShine",
+    category: "Web",
+    description: "BornToShine is a modern music production and publishing website created to showcase music, artists, releases, and creative work through a professional digital presence.",
+    status: "Live",
+    url: "https://www.borntoshine.online",
+    technologies: ["Next.js", "React", "CSS", "Web Design"],
+    image: bornToShineImg.src,
+    tags: ["Music Production", "Web Design", "Creative Platform"]
   },
   {
     id: "agecalc",
